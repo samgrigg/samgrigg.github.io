@@ -1,0 +1,71 @@
+/*colors from http://www.wikiart.org/en/mark-rothko/no-8-1952*/
+
+body {
+  background-color: #F6F6ED;
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  padding:0;margin:0;
+}
+
+#appWrap {
+  margin:0 auto;
+  width: 1024px;
+  height:768px;
+  padding-top:100px;
+  margin-bottom:2em;
+
+  background-color: #CFF07A;
+  background-repeat: repeat-y;
+
+  background-image: -o-linear-gradient(#EFCB79 0%, #CDF179 100%);
+  background-image: -moz-linear-gradient(#EFCB79 0%, #CDF179 100%);
+  background-image: -ms-linear-gradient(-179deg, #EFCB79 0%, #CDF179 100%);
+  background-image: linear-gradient(-269deg, #EFCB79 0%, #CDF179 100%);
+
+  -moz-box-shadow:    0px 0px 5px 0px rgba(0,0,0,0.50);
+  box-shadow:         0px 0px 5px 0px rgba(0,0,0,0.50);
+}
+
+/*
+  Nash Image Replacement Improved · http://nicolasgallagher.com/css-image-replacement-with-pseudo-elements/
+*/
+#nameCard .nirim {
+  height: 60px;
+  width: 310px;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 0;
+}
+.nirim:before {
+  content: url(../images/samgrigg.png);
+  display: inline-block;
+  font-size: 0;
+  line-height: 0;
+}
+#nameCard .desc p {
+  margin:0;
+  text-align: center;
+}
+
+#mainQuote {
+  width:715px;
+  margin:0 auto;
+  margin-top:100px;
+  text-align: center;
+}
+.quoteContent {
+  color: #F80000;
+  font-size: 36px;
+  display: block;
+  text-align: center;
+}
+cite {
+  font-style: normal;
+}
+cite:before {
+  font-size:16px;
+  content: "~";
+}
+cite a {
+  color:#444;
+}
